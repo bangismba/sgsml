@@ -1,4 +1,7 @@
-import Head from '../components/Head';
+
+type AboutProps = {
+  go: (page: string) => void;
+};
 
 const VALUES = [
   {
@@ -29,7 +32,7 @@ const TEAM = [
   { name: 'Operations Manager', role: 'Site Operations & Logistics' },
 ];
 
-function About() {
+function About({ go }: AboutProps) {
   return (
     <>
       {/* ============ HERO ============ */}
