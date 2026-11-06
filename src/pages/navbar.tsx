@@ -115,14 +115,6 @@ function Navbar({ page, go, theme, toggle }: Props) {
               {dark ? I.sun : I.moon}
             </button>
 
-            {/* <button
-              className="btn nav-cta"
-              onClick={() => pick('contact')}
-              style={{ minHeight: 40, padding: '.5rem 1rem' }}
-            >
-              Get a quote
-            </button> */}
-
             <button
               className="ic burger"
               onClick={() => setOpen(!open)}
