@@ -525,7 +525,7 @@ textarea {
 .hero-photo {
   position: absolute;
   inset: 0;
-  background-image: url('/imagesprojects/Estate road upkeep.png');
+  background-image: url('/imagesprojects/Estate road upkeep.webp');
   background-size: cover;
   background-position: center;
   opacity: 0.18;
@@ -914,7 +914,7 @@ textarea:focus {
       rgba(7, 27, 65, 0.88),
       rgba(7, 27, 65, 0.48)
     ),
-    url("/images/projects/River crossing bridge.png") center 55% / cover no-repeat;
+    url("/images/projects/River crossing bridge.webp") center 55% / cover no-repeat;
   color: #fff;
 }
 
