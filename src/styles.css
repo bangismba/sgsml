@@ -872,7 +872,7 @@ textarea:focus {
       rgba(7, 27, 65, 0.88),
       rgba(7, 27, 65, 0.48)
     ),
-    url("/images/questionbg.png") center 55% / cover no-repeat;
+    url("/images/questionbg.webp") center 55% / cover no-repeat;
 }
 
 .cta h2 {
@@ -1541,4 +1541,75 @@ footer.deep .fbot {
   margin: 0;
   color: var(--mute);
   font-size: 0.88rem;
+}
+
+
+
+.equipment-card {
+  overflow: hidden;
+  padding: 0;
+  transition: transform .3s ease, box-shadow .3s ease;
+}
+
+.equipment-card:hover {
+  transform: translateY(-6px);
+}
+
+.equipment-image {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+  background: #e9edf2;
+}
+
+.equipment-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .5s ease;
+}
+
+.equipment-card:hover .equipment-image img {
+  transform: scale(1.06);
+}
+
+.equipment-info {
+  padding: 1.2rem;
+}
+
+.equipment-info h3 {
+  margin: 0 0 .5rem;
+}
+
+.equipment-info span {
+  font-size: .85rem;
+  opacity: .7;
+}
+
+.services-hero {
+  padding: 5rem 0 4rem;
+}
+
+.services-hero .wrap {
+  position: relative;
+}
+
+.services-hero h1 {
+  max-width: 18ch;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
+@media (min-width: 800px) {
+  .services-hero {
+    padding: 6rem 0 5rem;
+  }
+}
+
+@media (max-width: 520px) {
+  .services-hero {
+    padding: 3.5rem 0 3rem;
+  }
 }

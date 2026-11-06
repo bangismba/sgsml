@@ -144,7 +144,7 @@ function About({ go }: AboutProps) {
           <div className="ceo-layout">
             <div className="ceo-portrait">
               <img
-                src="/images/ceo.jpeg"
+                src="/images/ceo.webp"
                 alt="Alhaji Ahmed Usman Danmalam — Founder & Managing Director/CEO"
                 width="360"
                 height="420"

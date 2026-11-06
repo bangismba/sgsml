@@ -16,22 +16,22 @@ export const SERVICES:[string,string,string][]=[
 export const CATS:string[]=["Architectural","Building","Roads","Bridges","Project Monitoring","Maintenance"];
 export const PROJECTS: Project[] = [
   ["Community access road", "Kaduna", "Roads", 2024, "Completed",
-    "/images/projects/road.png"],
+    "/images/projects/road.webp"],
 
   ["Primary school block", "Niger", "Building", 2023, "Completed",
-    "/images/projects/Primary%20school%20block.png"],
+    "/images/projects/Primary%20school%20block.webp"],
 
   ["River crossing bridge", "Kogi", "Bridges", 2025, "Ongoing",
-    "/images/projects/River%20crossing%20bridge.png"],
+    "/images/projects/River%20crossing%20bridge.webp"],
 
   ["Township drainage works", "FCT", "Roads", 2025, "Ongoing",
-    "/images/projects/Township%20drainage%20works.png"],
+    "/images/projects/Township%20drainage%20works.webp"],
 
   ["Office complex design", "FCT", "Architectural", 2023, "Completed",
-    "/images/projects/Office%20complex%20design.png"],
+    "/images/projects/Office%20complex%20design.webp"],
 
   ["Estate road upkeep", "Kano", "Maintenance", 2024, "Completed",
-    "/images/projects/Estate%20road%20upkeep.png"],
+    "/images/projects/Estate%20road%20upkeep.webp"],
 ];
 export const EQUIP:string[]=["Excavators","Bulldozers","Dump trucks","Graders","Concrete mixers","Rollers"];
 export const CLIENTS = [
